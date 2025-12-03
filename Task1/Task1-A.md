@@ -22,6 +22,10 @@ Tasks include hands-on coding, conceptual understanding, and implementing ML mod
 
 Complete all assignments relevant to your current level of ML knowledge and push the relevant notebooks to GitHub.
 
+## Additional Resources for ML (Optional)
+- [Andrew Ng's Stanford CS229: Machine Learning Course](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
+- [Josh Starmer's Machine Learning Playlist](https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF)
+
 --- 
 
 > This is going to prepare you for the Reinforcement Leaning part of the project.
