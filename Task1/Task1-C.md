@@ -67,16 +67,3 @@ for future RL training.
 
 ---
 
-## **6. Dockerize a Basic Chaos Controller**
-
-**Task:**
-Create a container exposing APIs like:
-
-* `/kill` → stops a service container
-* `/pause` → pauses a container
-* `/latency` → injects network delay using `tc`
-* `/cpu` → runs `stress-ng` inside target container
-
-This will later be mapped to RL “actions”.
-
----
