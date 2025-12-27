@@ -6,11 +6,14 @@
 - Understand the workflow and confirm successful execution.
 
 ## Steps
-- made a small fastapi app, and exposed required endpoints according to task's problm statement
-- created an exporter python file , used it expose metrics from main.py file in prometheus format 
-- created docker network and confirmed communication b/w the 2 containers
-- created a docker compose file 
-- connected to prometheus and grafana
+
+- Created a small fastapi app, and exposed required endpoints according to task's problem statement
+- created an exporter python file , used it expose metrics from main.py file in prometheus format(all the values were Gauge format )
+- Created docker network and confirmed communication b/w the 2 containers
+- Created a docker compose file for the entire setup ( 4 containers : main file , exported file for scraping , prometheus and grafana)
+- Configured Prometheus for the container and added the dashboards in grafana
+- Verified the visualization with actual exposed data
+
 
 ## Observations 
 - the endpoints are accessible by the service names
